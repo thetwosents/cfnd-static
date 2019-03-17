@@ -30,7 +30,9 @@ html body a, html body p, html body span, html body li {
   color: #000;
   text-decoration: none; }
 html body p {
-  line-height: 1.7; }
+  line-height: 1.7;
+  font-size: 20px;
+  line-height: 36px; }
 html body a {
   position: relative; }
   html body a::after {
@@ -78,7 +80,7 @@ html body img {
     color: #fff; }
   .masthead p {
     color: #fff; }
-  .masthead .content {
+  .masthead .masthead-content {
     position: absolute;
     bottom: 0px; }
   .masthead .masthead-overlay {
@@ -107,6 +109,9 @@ html body img {
       font-size: 12px;
       color: #fff;
       text-decoration: underline; }
+
+.content {
+  padding: 60px 0px; }
 
 .container {
   max-width: 100% !important;

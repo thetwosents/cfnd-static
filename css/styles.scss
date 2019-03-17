@@ -44,6 +44,8 @@ html {
 		}
 		p {
 			line-height: 1.7;
+			font-size: 20px;
+			line-height: 36px;
 		}
 		a {
 			position: relative;
@@ -107,7 +109,7 @@ html {
 	p {
 		color: #fff;
 	}
-	.content {
+	.masthead-content {
 		position: absolute;
 		bottom: 0px;
 	}
@@ -143,6 +145,10 @@ html {
 			}
 		}
 	}
+}
+
+.content {
+	padding: 60px 0px;
 }
 
 .container {
