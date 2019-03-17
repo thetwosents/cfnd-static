@@ -127,6 +127,8 @@ html {
 }
 
 .breadcrumbs {
+	position: absolute;
+	top: -50px;
 	ul {
 		margin: 0px;
 		padding: 0px;
@@ -136,10 +138,10 @@ html {
 			margin-right: 8px;
 			color: #fff;
 			font-style: italic;
-			font-size: 12px;
+			font-size: 11px;
 			a {
 				font-style: italic;
-				font-size: 12px;
+				font-size: 11px;
 				color: #fff;
 				text-decoration: underline;
 			}
