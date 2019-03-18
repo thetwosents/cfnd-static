@@ -534,6 +534,33 @@ animation: scaleSlide 30s ease-0out infinite alternate;
 			}
 		}
 	}
+	.bottom-bar {
+		background: #000;
+		padding: 20px 0px;
+		p {
+			font-size: 14px;
+			color: #fff;
+			line-height: 1.7;
+		}
+		.social-icons {
+			margin: 0px;
+			padding: 0px;
+			list-style-type: none;
+			li {
+				color: #fff;
+				display: inline-block;
+				margin: 0px 12px;
+				a {
+					color: #fff;
+					i {
+						color: #fff !important;
+						font-size: 20px;
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
 }
 
 
