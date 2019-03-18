@@ -124,20 +124,22 @@ header {
   padding: 20px 0px; }
   header .logo {
     max-width: 200px; }
-  header .header-navigation {
+  header .menu {
     margin-top: 12px;
     padding: 0px;
     list-style-type: none; }
-    header .header-navigation li {
+    header .menu li {
       display: inline-block;
       margin: 0px 20px; }
-      header .header-navigation li.header-navigation__social-icon {
+      header .menu li.header-navigation__social-icon {
         margin: 0px 8px; }
-        header .header-navigation li.header-navigation__social-icon a i {
+        header .menu li.header-navigation__social-icon a i {
           color: #000;
           opacity: 1; }
-        header .header-navigation li.header-navigation__social-icon.header-navigation__social-icon--first {
+        header .menu li.header-navigation__social-icon.header-navigation__social-icon--first {
           margin-left: 20px; }
+      header .menu li li {
+        display: none; }
 
 .slider-controls {
   position: absolute;
