@@ -9,6 +9,7 @@ html {
 		.row {
 			margin-left: 0px;
 			margin-right: 0px;
+			width: 100%;
 		}
 		h1 {
 			font-size: 48px;
@@ -112,6 +113,7 @@ html {
 	.masthead-content {
 		position: absolute;
 		bottom: 0px;
+		width: 100%;
 	}
 	.masthead-overlay {
 		position: absolute;
@@ -190,6 +192,7 @@ header {
 }
 
 aside {
+	padding: 60px 0px;
 	h3 {
 		font-size: 24px !important;
 		margin: 0px auto 24px;
