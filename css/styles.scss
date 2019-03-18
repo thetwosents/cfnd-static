@@ -213,6 +213,37 @@ header {
 			}
 		}
 	}
+	@media all and (max-width: 767px) {
+		padding-top: 20px;
+		.menu {
+			display: none;
+		}
+		.logo {
+			img {
+				height: 48px;
+				width: auto;
+			}
+		}
+		.mobile-menu {
+			padding: 20px 0px;
+			border-top: 1px solid #f2f2f2;
+			margin-top: 10px;
+			a {
+				font-size: 16px;
+			}
+			.mobile-btn-outline {
+				border: 1px solid #f2f2f2;
+				box-sizing: border-box;
+				padding: 8px 18px;
+			}
+			.mobile-btn {
+				background: $primary;
+				color: #fff;
+				box-sizing: border-box;
+				padding: 8px 18px;
+			}
+		}
+	}
 }
 
 #sidebar {

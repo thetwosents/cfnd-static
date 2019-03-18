@@ -159,6 +159,29 @@ header .menu {
       display: block;
       line-height: 48px;
       padding: 0px; }
+@media all and (max-width: 767px) {
+  header {
+    padding-top: 20px; }
+    header .menu {
+      display: none; }
+    header .logo img {
+      height: 48px;
+      width: auto; }
+    header .mobile-menu {
+      padding: 20px 0px;
+      border-top: 1px solid #f2f2f2;
+      margin-top: 10px; }
+      header .mobile-menu a {
+        font-size: 16px; }
+      header .mobile-menu .mobile-btn-outline {
+        border: 1px solid #f2f2f2;
+        box-sizing: border-box;
+        padding: 8px 18px; }
+      header .mobile-menu .mobile-btn {
+        background: #2f86b7;
+        color: #fff;
+        box-sizing: border-box;
+        padding: 8px 18px; } }
 
 #sidebar {
   padding: 60px 0px; }
