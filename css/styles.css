@@ -160,14 +160,14 @@ header .menu {
       line-height: 48px;
       padding: 0px; }
 
-aside {
+#sidebar {
   padding: 60px 0px; }
-  aside h3 {
+  #sidebar h3 {
     font-size: 24px !important;
     margin: 0px auto 24px; }
-  aside form {
+  #sidebar form {
     max-width: 100%; }
-  aside input {
+  #sidebar input {
     width: 100%;
     margin: 12px auto;
     line-height: 48px;
@@ -177,7 +177,7 @@ aside {
     box-sizing: border-box;
     padding: 0px 0px 0px 12px;
     display: block; }
-  aside textarea {
+  #sidebar textarea {
     width: 100%;
     margin: 12px auto;
     line-height: 48px;
@@ -188,7 +188,7 @@ aside {
     padding: 0px 0px 0px 12px;
     display: block;
     min-height: 160px; }
-  aside .btn-primary {
+  #sidebar .btn-primary {
     background: #2F86B7;
     color: #fff;
     padding: 16px 32px;
