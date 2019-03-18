@@ -11,7 +11,7 @@ html body h1 {
   font-weight: 600;
   font-style: normal; }
 html body h2 {
-  font-size: 48px;
+  font-size: 36px;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-style: normal; }
@@ -317,8 +317,15 @@ header .mobile-menu {
         height: auto;
         opacity: 1; }
 
+a img {
+  transition: all .1s ease-in-out;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out; }
+  a img:hover {
+    opacity: .8; }
+
 .tiles {
-  padding: 60px 0px; }
+  padding: 60px 60px; }
   .tiles .tile {
     background: #1C6AA5;
     padding: 60px 60px;
