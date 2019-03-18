@@ -96,24 +96,18 @@ html body img {
     z-index: 2;
     background-image: linear-gradient(220deg, rgba(0, 0, 0, 0.01) 17%, rgba(0, 0, 0, 0.94) 100%, black 100%); }
 
-.breadcrumbs {
+#breadcrumbs {
   position: absolute;
   top: -50px; }
-  .breadcrumbs ul {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none; }
-    .breadcrumbs ul li {
-      display: inline-block;
-      margin-right: 8px;
-      color: #fff;
-      font-style: italic;
-      font-size: 11px; }
-      .breadcrumbs ul li a {
-        font-style: italic;
-        font-size: 11px;
-        color: #fff;
-        text-decoration: underline; }
+  #breadcrumbs span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+    text-decoration: none; }
+  #breadcrumbs a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none; }
 
 .content {
   padding: 60px 0px; }
