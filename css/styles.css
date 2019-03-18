@@ -359,6 +359,9 @@ a img {
       box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.29);
       -webkit-box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.29); }
 
+.team-member {
+  margin-bottom: 120px; }
+
 footer .action-banner {
   padding: 60px 0px;
   background: #1C6AA5;
