@@ -161,17 +161,37 @@ html {
 }
 
 header {
-	padding: 20px 0px;
+	// padding: 20px 0px;
 	.logo {
 		max-width: 200px;
 	}
 	.menu {
-		margin-top: 12px;
+		margin-top: 14px;
+		margin-bottom: 0px;
 		padding: 0px;
 		list-style-type: none;
 		li {
 			display: inline-block;
 			margin: 0px 20px;
+			padding: 20px 0px;
+			position: relative;
+			&:hover {
+				ul {
+					display: block;
+				}
+			}
+			ul {
+				display: none;
+				position: absolute;
+				top: 40px;
+				background: rgba(255,255,255,.9);
+				padding: 10px;
+				z-index: 8;
+				min-width: 220px;
+				left: 0px;
+				text-align: left;
+				margin: 0px 0px 0px 0px;
+			}
 			&.header-navigation__social-icon {
 				margin: 0px 8px;
 				a {
@@ -185,7 +205,11 @@ header {
 				}
 			}
 			li {
-				display: none;
+				// display: none;
+				margin: 0px;
+				display: block;
+				line-height: 48px;
+				padding: 0px;
 			}
 		}
 	}
