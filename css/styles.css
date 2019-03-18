@@ -95,6 +95,12 @@ html body img {
     width: 100%;
     z-index: 2;
     background-image: linear-gradient(220deg, rgba(0, 0, 0, 0.01) 17%, rgba(0, 0, 0, 0.94) 100%, black 100%); }
+  @media all and (max-width: 767px) {
+    .masthead .masthead-content {
+      position: relative; }
+    .masthead .container {
+      height: auto !important;
+      min-height: 50vh !important; } }
 
 .news article {
   display: block;
