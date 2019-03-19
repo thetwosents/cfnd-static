@@ -189,6 +189,9 @@ html {
 				// 	-moz-transition: all .1s ease-in-out;
 				// } 
 			}
+			@media all and (max-width: 767px) {
+				opacity: 0;
+			}
 }
 
 .content {
