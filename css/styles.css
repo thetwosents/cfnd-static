@@ -66,7 +66,9 @@ html body img {
     max-width: 100%;
     height: auto; }
   html body .container {
-    width: auto; } }
+    width: auto; }
+  html body .xoxo {
+    padding-left: 0px !important; } }
 
 .masthead {
   padding: 60px 0px;
