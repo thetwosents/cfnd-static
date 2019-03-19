@@ -520,6 +520,9 @@ a {
 			-webkit-box-shadow: 0 2px 24px 0 rgba(0,0,0,0.29);
 		}
 	}
+	@media all and (max-width: 767px) {
+		padding: 0px 20px;
+	}
 }
 
 .team-member {
