@@ -196,11 +196,12 @@ header .mobile-menu {
       z-index: 8;
       left: 0px;
       width: 100%;
-      top: 170px;
+      top: 125px;
       background: rgba(255, 255, 255, 0.95); }
       header .menu li {
         display: block;
-        margin: 0px 20px; }
+        margin: 0px 20px;
+        text-align: left; }
       header .menu.active {
         display: block; }
     header .logo img {
