@@ -81,6 +81,13 @@ html {
 		img {
 			max-width: 100%;
 		}
+
+		@media all and (max-width: 767px) {
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
 	}
 }
 
