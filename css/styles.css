@@ -5,6 +5,8 @@ html body .row {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%; }
+html body iframe {
+  max-width: 100% !important; }
 html body h1 {
   font-size: 48px;
   font-family: 'Roboto', sans-serif;

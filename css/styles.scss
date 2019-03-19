@@ -11,6 +11,9 @@ html {
 			margin-right: 0px;
 			width: 100%;
 		}
+		iframe {
+			max-width: 100% !important;
+		}
 		h1 {
 			font-size: 48px;
 			font-family: 'Roboto', sans-serif;
