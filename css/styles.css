@@ -64,7 +64,9 @@ html body img {
 @media all and (max-width: 767px) {
   html body img {
     max-width: 100%;
-    height: auto; } }
+    height: auto; }
+  html body .container {
+    width: auto; } }
 
 .masthead {
   padding: 60px 0px;
