@@ -101,6 +101,27 @@ html {
 }
 
 
+.news-block {
+	padding: 60px 0px;
+	h3 {
+		font-size: 20px;
+	}
+	.external-links-list {
+		height: 300px;
+		overflow: auto;
+		h4 {
+			margin-bottom: 0px;
+		}
+		p {
+			font-style: italic;
+			font-size: 14px;
+		}
+		article {
+			border-bottom: 1px solid #e8e8e8;
+		}
+	}
+}
+
 .masthead {
 	// min-height: 60vh;
 	padding: 60px 0px;

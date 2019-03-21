@@ -70,6 +70,21 @@ html body img {
   html body .xoxo {
     padding-left: 0px !important; } }
 
+.news-block {
+  padding: 60px 0px; }
+  .news-block h3 {
+    font-size: 20px; }
+  .news-block .external-links-list {
+    height: 300px;
+    overflow: auto; }
+    .news-block .external-links-list h4 {
+      margin-bottom: 0px; }
+    .news-block .external-links-list p {
+      font-style: italic;
+      font-size: 14px; }
+    .news-block .external-links-list article {
+      border-bottom: 1px solid #e8e8e8; }
+
 .masthead {
   padding: 60px 0px;
   background: #000;
